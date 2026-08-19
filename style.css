@@ -1,5 +1,22 @@
+{
+  box-sizing: border-box;
+}
+
 body {
-    background: rgb(179, 10, 191);
+  margin: 0;
+  background: #947706;
+  color: #222;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#all-contents {
+  max-width: 1500px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 32px 40px;
+}
+body {
+    background: #7303fc;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -12,7 +29,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(135, 21, 153);
+    background: #1f4023;
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -45,7 +62,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(247, 232, 230);
+    background: #fa61e8;
     display: flex;
     margin-top: 20px;
 }
@@ -74,6 +91,7 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
 /* Portfolio styles */
 .content h1 {
   color: black;
@@ -126,4 +144,3 @@ h2, h3 {
 #portfolio a:hover::after {
   opacity: 1;
 }
-
