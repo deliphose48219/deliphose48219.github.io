@@ -169,3 +169,12 @@ h2, h3 {
 #portfolio .highlight-word {
   transition: background-color 0.25s ease, color 0.25s ease;
 }
+
+a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
