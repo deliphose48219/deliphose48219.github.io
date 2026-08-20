@@ -1,6 +1,3 @@
-{
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -15,11 +12,34 @@ body {
   margin: 0 auto;
   padding: 32px 40px;
 }
-body {
-    background: #7303fc;
-    color: rgb(45, 45, 45);
-    padding: 10px;
-    font-family: Arial, sans-serif;
+body{  margin: 0;
+  padding: 10px;
+  color: rgb(45, 45, 45);
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #7303fc,
+    #fa61e8,
+    #7303fc,
+    #fa61e8
+  );
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #all-contents {
@@ -145,36 +165,6 @@ h2, h3 {
   opacity: 1;
 }
 
-body {
-  margin: 0;
-  padding: 10px;
-  color: rgb(45, 45, 45);
-  font-family: Arial, sans-serif;
-
-  background: linear-gradient(
-    135deg,
-    #7303fc,
-    #fa61e8,
-    #7303fc,
-    #fa61e8
-  );
-  background-size: 400% 400%;
-  animation: gradientBackground 15s ease infinite;
-}
-
-@keyframes gradientBackground {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 #portfolio .highlight-word {
   transition: background-color 0.25s ease, color 0.25s ease;
