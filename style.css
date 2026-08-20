@@ -171,10 +171,10 @@ h2, h3 {
 }
 
 a {
-  color: #2563eb;
+  color: #eb0def;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #1d4ed8;
+  color: #be17d4;
 }
