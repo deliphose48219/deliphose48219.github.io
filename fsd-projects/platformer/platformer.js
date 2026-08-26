@@ -68,6 +68,8 @@ $(function () {
       }
     };
 
+    
+
     const backgroundStyle = document.createElement("style");
     backgroundStyle.textContent = `
       @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -78,9 +80,9 @@ $(function () {
         100% { background-position: 0% 50%; }
       }
       #canvas.moving-background {
-        background: linear-gradient(120deg, #080c0c, #c7ab0f, #010000, #c7ab0f);
+        background: linear-gradient(120deg, #f7f7f7, #c7ab0f, #f7f7f7, #c7ab0f);
         background-size: 300% 300%;
-        animation: platformerBackgroundMove 14s ease infinite;
+        animation: platformerBackgroundMove 3s ease infinite;
       }
     `;
     document.head.appendChild(backgroundStyle);
@@ -196,13 +198,13 @@ $(function () {
       "orangered",
     );
 
-    createPlatform(70, 650, 100, 10, "grey");
-    createPlatform(320, 570, 100, 10, "grey");
-    createPlatform(570, 490, 100, 10, "grey");
-    createPlatform(820, 410, 100, 10, "grey");
-    createPlatform(1080, 330, 100, 10, "grey");
-    createPlatform(900, 220, 160, 10, "deepskyblue", 900, 900, 0, 160, 300, 2);
-    createPlatform(1120, 120, 100, 10, "grey");
+    createPlatform(70, 650, 100, 10, "black");
+    createPlatform(320, 570, 100, 10, "black");
+    createPlatform(570, 490, 100, 10, "black");
+    createPlatform(820, 410, 100, 10, "black");
+    createPlatform(1080, 330, 100, 10, "black");
+    createPlatform(900, 220, 160, 10, "black", 900, 900, 0, 160, 300, 2);
+    createPlatform(1120, 120, 100, 10, "black");
 
     createBadPlatform(250, 650, 70, 10, "gold");
     createBadPlatform(500, 570, 70, 10, "gold");
