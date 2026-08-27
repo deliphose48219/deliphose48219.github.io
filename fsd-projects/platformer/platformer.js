@@ -223,13 +223,13 @@ $(function () {
     createCollectable("diamond", 1200, 80);
 
     // TODO 4 - Create Cannons
-    createCannon("bottom", 160, 1000, 64, 64);
-    createCannon("bottom", 410, 1500, 64, 64);
-    createCannon("bottom", 660, 1000, 64, 64);
-    createCannon("bottom", 910, 1500, 64, 64);
-    createCannon("bottom", 1170, 1000, 64, 64);
-    createCannon("left", 250, 1500, 64, 64, 120, 600, 2);
-    createCannon("right", 500, 1500, 64, 64, 120, 600, 2);
+    createCannon("bottom", 160, 1000, 26, 26);
+    createCannon("bottom", 410, 1500, 26, 26);
+    createCannon("bottom", 660, 1000, 26, 26);
+    createCannon("bottom", 910, 1500, 26, 26);
+    createCannon("bottom", 1170, 1000, 26, 26);
+    createCannon("left", 250, 1800, 26, 26, 120, 600, 2);
+    createCannon("right", 500, 1800, 26, 26, 120, 600, 2);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
